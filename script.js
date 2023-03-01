@@ -17,9 +17,9 @@ const setTheme = function (mode) {
     mode === 'Dark' ? 'fa-sun' : 'fa-moon'
   );
   toggleIcon.children[1].classList.add(mode === 'Dark' ? 'fa-moon' : 'fa-sun');
-  image1.src = `img/undraw_proud_coder_${mode.toLowerCase()}.svg`;
-  image2.src = `img/undraw_feeling_proud_${mode.toLowerCase()}.svg`;
-  image3.src = `img/undraw_conceptual_idea_${mode.toLowerCase()}.svg`;
+  image1.src = `./img/undraw_proud_coder_${mode.toLowerCase()}.svg`;
+  image2.src = `./img/undraw_feeling_proud_${mode.toLowerCase()}.svg`;
+  image3.src = `./img/undraw_conceptual_idea_${mode.toLowerCase()}.svg`;
 };
 
 // Switching the theme function
